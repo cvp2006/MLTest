@@ -8,8 +8,8 @@
 import PackageDescription
 
 let package = Package(
-  name: "HelloWorld",
+  name: "MLTest",
   dependencies: [
-    .Package(url: "https://github.com/kylef/Curassow.git", majorVersion: 0, minor: 6),
+    .Package(url: "https://git.heroku.com/mltest-cvp.git", majorVersion: 0, minor: 6),
   ]
 )
