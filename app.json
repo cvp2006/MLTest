@@ -1,0 +1,14 @@
+{
+    "name": "MLTest",
+    "description": "MLTest deploy Swift on Heroku.",
+    "repository": "https://github.com/cvp2006/MLTest/tree/main/MLTest",
+    "website": "https://github.com/cvp2006/MLTest/tree/main/MLTest",
+    "keywords": [
+        "swift"
+    ],
+    "buildpacks": [
+        {
+            "url": "https://github.com/kylef/heroku-buildpack-swift"
+        }
+    ]
+}
